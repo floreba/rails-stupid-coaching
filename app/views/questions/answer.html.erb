@@ -1,0 +1,10 @@
+<div class="d-flex align-items-center flex-column">
+  <div class="card alert alert-success">
+    <p><%= @question %> - You</p>
+  </div>
+
+  <div class="card alert alert-warning">
+    <%= @answer %>
+  </div>
+  <%= link_to "Back to questions", ask_path, class: "btn btn-primary" %>
+</div>

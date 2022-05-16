@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ .answerbox = {
+   padding: 5px;
+   background-color: yellow;
+ }
